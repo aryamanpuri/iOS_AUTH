@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		A40AE095A94E2D4148FB19C8 /* Pods_SWIFTUI_AUTH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E08A0AE7E2B32EC96E65728 /* Pods_SWIFTUI_AUTH.framework */; };
+		AF0F0E5426B3AA970096757B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF0F0E5326B3AA970096757B /* GoogleService-Info.plist */; };
 		AF388A1E26B11004000B93C9 /* SWIFTUI_AUTHApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF388A1D26B11004000B93C9 /* SWIFTUI_AUTHApp.swift */; };
 		AF388A2026B11004000B93C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF388A1F26B11004000B93C9 /* ContentView.swift */; };
 		AF388A2226B11005000B93C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF388A2126B11005000B93C9 /* Assets.xcassets */; };
 		AF388A2526B11005000B93C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF388A2426B11005000B93C9 /* Preview Assets.xcassets */; };
-		AF6F188226B1A0DF002AD21E /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF6F188126B1A0DF002AD21E /* GoogleService-Info-2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E08A0AE7E2B32EC96E65728 /* Pods_SWIFTUI_AUTH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWIFTUI_AUTH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0F0E5326B3AA970096757B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AF388A1A26B11004000B93C9 /* SWIFTUI AUTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWIFTUI AUTH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF388A1D26B11004000B93C9 /* SWIFTUI_AUTHApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_AUTHApp.swift; sourceTree = "<group>"; };
 		AF388A1F26B11004000B93C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF388A2126B11005000B93C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF388A2426B11005000B93C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AF6F188126B1A0DF002AD21E /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		C5AD8E7A9C01B22E2AA7DC0D /* Pods-SWIFTUI AUTH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI AUTH.debug.xcconfig"; path = "Target Support Files/Pods-SWIFTUI AUTH/Pods-SWIFTUI AUTH.debug.xcconfig"; sourceTree = "<group>"; };
 		D0175259BDCAFD09C76B12AF /* Pods-SWIFTUI AUTH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWIFTUI AUTH.release.xcconfig"; path = "Target Support Files/Pods-SWIFTUI AUTH/Pods-SWIFTUI AUTH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +71,8 @@
 			children = (
 				AF388A1D26B11004000B93C9 /* SWIFTUI_AUTHApp.swift */,
 				AF388A1F26B11004000B93C9 /* ContentView.swift */,
+				AF0F0E5326B3AA970096757B /* GoogleService-Info.plist */,
 				AF388A2126B11005000B93C9 /* Assets.xcassets */,
-				AF6F188126B1A0DF002AD21E /* GoogleService-Info-2.plist */,
 				AF388A2326B11005000B93C9 /* Preview Content */,
 			);
 			path = "SWIFTUI AUTH";
@@ -156,7 +156,7 @@
 			files = (
 				AF388A2526B11005000B93C9 /* Preview Assets.xcassets in Resources */,
 				AF388A2226B11005000B93C9 /* Assets.xcassets in Resources */,
-				AF6F188226B1A0DF002AD21E /* GoogleService-Info-2.plist in Resources */,
+				AF0F0E5426B3AA970096757B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
